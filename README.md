@@ -12,8 +12,9 @@ Martin Nguyen, Jian Di
 
 Probabilistic Seismic Hazard Analysis (PSHA) is used in Open Quake Engine to produce tabular data containing earthquake information. However, the PSHA procedure is extremely complex and computationally time-consuming. Hence, this project aims to apply a machine learning model to speed up the procedure. Accordingly, the Conditional Tabular Generative Adversarial Network (CTGAN) model was selected and tuned to learn the underlying earthquake features. It used a small sample (10% ~ 20%) of the tabular data to generate the synthetic dataset for reducing the complexity and the computation time. In this project, the performance of the CTGAN was assessed by Logistic Detection, Cosine Similarity, Pearson's and Spearman's Correlation, and Mapping.
 
-<div align="center">
-	<img width = "45%" src="https://github.com/Martin20494/GAN_for_PSHA/blob/main/comparison.png">
+<img width = "100%" src="https://github.com/Martin20494/GAN_for_PSHA/blob/main/comparison.png">
+
+The first column presents two results from PSHA, and the second column presents two results from the CTGAN. The two columns are highly similar to each other which means that the CTGAN can learn the underlying features of the earthquake information and there is potential that CTGAN can be used to speed up the PSHA procedure.
 
 ## Description
 
