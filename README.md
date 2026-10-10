@@ -2,7 +2,7 @@
 
 ### Title
 
-Application of a Generative Adversarial Model to enhance the performance of complex Probabilistic Seismic Model
+Application of a Generative Adversarial Network Model to enhance the performance of complex Probabilistic Seismic Model
 
 ### Authors
 
